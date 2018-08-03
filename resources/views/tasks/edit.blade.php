@@ -8,9 +8,9 @@
 
   {!! Form::label('status', 'ステータス：') !!}
   {!! Form::select('status',[
-    'done' => '完了',
-    'waiting' => '未着手',
-    'working' => '着手',
+    '完了' => '完了',
+    '未着手' => '未着手',
+    '着手' => '着手',
   ]) !!}
 
   {!! Form::label('content', 'タスク：') !!}
